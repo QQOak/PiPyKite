@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}Camera{% endblock %}
+
+
+{% block head %}
+
+		<script src="{{ url_for('static', filename='js/camera.js') }}"></script>
+		
+{% endblock %}
+
+
+{% block content %}
+
+<button type="button" class="btn-lg btn-primary" id="takePicture">Take Picture</button>
+<div id="pictureTaken" style="width:1024px; height: 768px; border: 1px solid black;">
+
+</div>
+
+{% endblock %}
+
