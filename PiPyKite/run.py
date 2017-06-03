@@ -1,5 +1,3 @@
-#! /usr/bin/python3
-
 from flask import Flask
 from flask import url_for, render_template
 from camera import PiPyCam
